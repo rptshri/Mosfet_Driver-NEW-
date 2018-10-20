@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MosfetDriverOn210404-rescue)(type Legacy)(uri ${KIPRJMOD}/MosfetDriverOn210404-rescue.lib)(options "")(descr ""))
+)
