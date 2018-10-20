@@ -595,17 +595,6 @@ Wire Wire Line
 	8450 2550 8450 2500
 Connection ~ 8350 2550
 $Comp
-L MosfetDriverOn210404-rescue:ATmega328P-AU-MCU_Microchip_ATmega U?
-U 1 1 5BCEBDA5
-P 2600 2700
-F 0 "U?" H 2150 4150 50  0000 C CNN
-F 1 "ATmega328P-AU" H 2500 1600 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2600 2700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2600 2700 50  0001 C CNN
-	1    2600 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Switching:LM2576HVS-ADJ U?
 U 1 1 5BCEC0EC
 P 1350 6950
@@ -1028,6 +1017,17 @@ F 1 "CP" H 6018 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 5938 6900 50  0001 C CNN
 F 3 "~" H 5900 7050 50  0001 C CNN
 	1    5900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U?
+U 1 1 5BCBA2FB
+P 3950 2450
+F 0 "U?" H 3950 864 50  0000 C CNN
+F 1 "ATmega328P-AU" H 3950 773 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3950 2450 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3950 2450 50  0001 C CNN
+	1    3950 2450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
