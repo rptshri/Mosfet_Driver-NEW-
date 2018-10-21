@@ -64,7 +64,7 @@ U 1 1 5BBCAC8C
 P 7950 1300
 F 0 "Q1" H 7900 1450 50  0000 L CNN
 F 1 "IRF540N" V 8200 1150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8200 1225 50  0001 L CIN
+F 2 "Footprints:TO220_HS_SCREW" H 8200 1225 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7950 1300 50  0001 L CNN
 	1    7950 1300
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5BBCACD0
 P 7950 1800
 F 0 "Q2" H 7900 1950 50  0000 L CNN
 F 1 "IRF540N" V 8200 1650 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8200 1725 50  0001 L CIN
+F 2 "Footprints:TO220_HS_SCREW" H 8200 1725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7950 1800 50  0001 L CNN
 	1    7950 1800
 	1    0    0    -1  
@@ -335,8 +335,8 @@ L Transistor_FET:IRF540N Q3
 U 1 1 5BCD2FF6
 P 8750 1300
 F 0 "Q3" H 8650 1450 50  0000 L CNN
-F 1 "IRF540N" V 9000 1150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9000 1225 50  0001 L CIN
+F 1 "IRF540N" V 9000 1200 50  0000 L CNN
+F 2 "Footprints:TO220_HS_SCREW" H 9000 1225 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8750 1300 50  0001 L CNN
 	1    8750 1300
 	-1   0    0    -1  
@@ -347,7 +347,7 @@ U 1 1 5BCD2FFC
 P 8750 1800
 F 0 "Q4" H 8650 1950 50  0000 L CNN
 F 1 "IRF540N" V 9000 1650 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9000 1725 50  0001 L CIN
+F 2 "Footprints:TO220_HS_SCREW" H 9000 1725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8750 1800 50  0001 L CNN
 	1    8750 1800
 	-1   0    0    -1  
