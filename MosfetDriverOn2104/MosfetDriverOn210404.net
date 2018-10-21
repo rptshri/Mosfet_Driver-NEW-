@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ARPIT\Documents\GitHub\Mosfet_Driver-NEW-\MosfetDriverOn2104\MosfetDriverOn210404.sch)
-    (date "21/10/2018 01:09:26")
+    (date "10/21/2018 10:28:48 AM")
     (tool "Eeschema (5.0.1)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
