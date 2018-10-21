@@ -336,7 +336,7 @@ U 1 1 5BCD2FF6
 P 8750 1300
 F 0 "Q3" H 8650 1450 50  0000 L CNN
 F 1 "IRF540N" V 9000 1200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9000 1225 50  0001 L CIN
+F 2 "Footprints:TO220_HS_SCREW" H 9000 1225 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8750 1300 50  0001 L CNN
 	1    8750 1300
 	-1   0    0    -1  
@@ -347,7 +347,7 @@ U 1 1 5BCD2FFC
 P 8750 1800
 F 0 "Q4" H 8650 1950 50  0000 L CNN
 F 1 "IRF540N" V 9000 1650 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9000 1725 50  0001 L CIN
+F 2 "Footprints:TO220_HS_SCREW" H 9000 1725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8750 1800 50  0001 L CNN
 	1    8750 1800
 	-1   0    0    -1  
@@ -1707,17 +1707,6 @@ F 3 "" H 5300 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 3600 4950 3400
-$Comp
-L power:+5V #PWR038
-U 1 1 5C225AB1
-P 5500 2300
-F 0 "#PWR038" H 5500 2150 50  0001 C CNN
-F 1 "+5V" H 5515 2473 50  0000 C CNN
-F 2 "" H 5500 2300 50  0001 C CNN
-F 3 "" H 5500 2300 50  0001 C CNN
-	1    5500 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 3400 4950 3300
 Connection ~ 4950 3400
@@ -1927,7 +1916,7 @@ L Device:C_Small C8
 U 1 1 5BD02979
 P 2650 1400
 F 0 "C8" H 2500 1450 50  0000 L CNN
-F 1 "C_Small" H 2400 1350 50  0000 L CNN
+F 1 ".1uF" H 2400 1350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2650 1400 50  0001 C CNN
 F 3 "~" H 2650 1400 50  0001 C CNN
 	1    2650 1400
@@ -2212,14 +2201,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 2650 4850 2650
 Wire Wire Line
-	5500 2300 5500 2350
-Wire Wire Line
 	5500 2350 5450 2350
 Wire Wire Line
 	5450 2450 5500 2450
 Wire Wire Line
 	5500 2450 5500 2350
-Connection ~ 5500 2350
 Wire Wire Line
 	5450 2550 5500 2550
 Wire Wire Line
@@ -2263,4 +2249,72 @@ Wire Wire Line
 	3950 2200 3850 2200
 Text Notes 8550 2600 0    50   ~ 0
 add 5 res's
+$Comp
+L power:VCC #PWR?
+U 1 1 5BCDA847
+P 800 2800
+F 0 "#PWR?" H 800 2650 50  0001 C CNN
+F 1 "VCC" H 817 2973 50  0000 C CNN
+F 2 "" H 800 2800 50  0001 C CNN
+F 3 "" H 800 2800 50  0001 C CNN
+	1    800  2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BCDA8E6
+P 800 3050
+F 0 "#PWR?" H 800 2800 50  0001 C CNN
+F 1 "GND" H 805 2877 50  0000 C CNN
+F 2 "" H 800 3050 50  0001 C CNN
+F 3 "" H 800 3050 50  0001 C CNN
+	1    800  3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5BCDABD5
+P 700 2900
+F 0 "C?" H 750 2950 50  0000 L CNN
+F 1 "220uF" H 750 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x4.4" H 700 2900 50  0001 C CNN
+F 3 "~" H 700 2900 50  0001 C CNN
+	1    700  2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5BCDB076
+P 900 2900
+F 0 "C?" H 950 2950 50  0000 L CNN
+F 1 "440uF" H 950 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x4.4" H 900 2900 50  0001 C CNN
+F 3 "~" H 900 2900 50  0001 C CNN
+	1    900  2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2800 800  2800
+Connection ~ 800  2800
+Wire Wire Line
+	800  2800 700  2800
+Wire Wire Line
+	700  3000 800  3000
+Wire Wire Line
+	800  3050 800  3000
+Connection ~ 800  3000
+Wire Wire Line
+	800  3000 900  3000
+$Comp
+L power:GND #PWR?
+U 1 1 5BD1ECE0
+P 5500 2650
+F 0 "#PWR?" H 5500 2400 50  0001 C CNN
+F 1 "GND" H 5505 2477 50  0000 C CNN
+F 2 "" H 5500 2650 50  0001 C CNN
+F 3 "" H 5500 2650 50  0001 C CNN
+	1    5500 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 2650
 $EndSCHEMATC
