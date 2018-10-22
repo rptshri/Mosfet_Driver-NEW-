@@ -1,0 +1,1015 @@
+EESchema Schematic File Version 4
+LIBS:MosfetDriverOn210404-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR?
+U 1 1 5BD115A5
+P 2700 5850
+AR Path="/5BCF2976/5BD115A5" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD115A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 5700 50  0001 C CNN
+F 1 "VCC" H 2717 6023 50  0000 C CNN
+F 2 "" H 2700 5850 50  0001 C CNN
+F 3 "" H 2700 5850 50  0001 C CNN
+	1    2700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD115AB
+P 2700 6150
+AR Path="/5BCF2976/5BD115AB" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD115AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 5900 50  0001 C CNN
+F 1 "GND" H 2705 5977 50  0000 C CNN
+F 2 "" H 2700 6150 50  0001 C CNN
+F 3 "" H 2700 6150 50  0001 C CNN
+	1    2700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5BD19712
+P 2400 6050
+AR Path="/5BD19712" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD19712" Ref="J?"  Part="1" 
+F 0 "J?" V 2366 5862 50  0000 R CNN
+F 1 "Screw_Terminal_01x02" V 2275 5862 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 2400 6050 50  0001 C CNN
+F 3 "~" H 2400 6050 50  0001 C CNN
+	1    2400 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 5950 2700 5950
+Wire Wire Line
+	2700 5950 2700 5850
+Wire Wire Line
+	2600 6050 2700 6050
+Wire Wire Line
+	2700 6050 2700 6150
+$Comp
+L Regulator_Switching:LM2576HVS-ADJ U?
+U 1 1 5BD204CF
+P 4400 4950
+AR Path="/5BD204CF" Ref="U?"  Part="1" 
+AR Path="/5BD0E604/5BD204CF" Ref="U?"  Part="1" 
+F 0 "U?" H 4400 5317 50  0000 C CNN
+F 1 "LM2576HVS-ADJ" H 4400 5226 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 4400 4700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 4400 4950 50  0001 C CNN
+	1    4400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5BD204D6
+P 5150 5050
+AR Path="/5BD204D6" Ref="L?"  Part="1" 
+AR Path="/5BD0E604/5BD204D6" Ref="L?"  Part="1" 
+F 0 "L?" V 5340 5050 50  0000 C CNN
+F 1 "220uH" V 5249 5050 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H6mm" H 5150 5050 50  0001 C CNN
+F 3 "~" H 5150 5050 50  0001 C CNN
+	1    5150 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD204DD
+P 4400 5400
+AR Path="/5BD204DD" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD204DD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 5150 50  0001 C CNN
+F 1 "GND" H 4405 5227 50  0000 C CNN
+F 2 "" H 4400 5400 50  0001 C CNN
+F 3 "" H 4400 5400 50  0001 C CNN
+	1    4400 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5400 4400 5250
+$Comp
+L Device:CP C?
+U 1 1 5BD204E4
+P 5400 5250
+AR Path="/5BD204E4" Ref="C?"  Part="1" 
+AR Path="/5BD0E604/5BD204E4" Ref="C?"  Part="1" 
+F 0 "C?" H 5518 5296 50  0000 L CNN
+F 1 "CP" H 5518 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 5438 5100 50  0001 C CNN
+F 3 "~" H 5400 5250 50  0001 C CNN
+	1    5400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD204EB
+P 5400 5400
+AR Path="/5BD204EB" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD204EB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 5150 50  0001 C CNN
+F 1 "GND" H 5405 5227 50  0000 C CNN
+F 2 "" H 5400 5400 50  0001 C CNN
+F 3 "" H 5400 5400 50  0001 C CNN
+	1    5400 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5050 4950 5050
+$Comp
+L power:VCC #PWR?
+U 1 1 5BD204F2
+P 3850 4800
+AR Path="/5BD204F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD204F2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 4650 50  0001 C CNN
+F 1 "VCC" H 3867 4973 50  0000 C CNN
+F 2 "" H 3850 4800 50  0001 C CNN
+F 3 "" H 3850 4800 50  0001 C CNN
+	1    3850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD204FA
+P 3850 5100
+AR Path="/5BD204FA" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD204FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 4850 50  0001 C CNN
+F 1 "GND" H 3855 4927 50  0000 C CNN
+F 2 "" H 3850 5100 50  0001 C CNN
+F 3 "" H 3850 5100 50  0001 C CNN
+	1    3850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5050 3850 5050
+Wire Wire Line
+	3850 5050 3850 5100
+$Comp
+L Device:D D?
+U 1 1 5BD20502
+P 4950 5250
+AR Path="/5BD20502" Ref="D?"  Part="1" 
+AR Path="/5BD0E604/5BD20502" Ref="D?"  Part="1" 
+F 0 "D?" H 5000 5150 50  0000 C CNN
+F 1 "SS24" H 4850 5150 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 4950 5250 50  0001 C CNN
+F 3 "~" H 4950 5250 50  0001 C CNN
+	1    4950 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 5100 4950 5050
+Connection ~ 4950 5050
+Wire Wire Line
+	4950 5050 5000 5050
+$Comp
+L power:GND #PWR?
+U 1 1 5BD2050C
+P 4950 5400
+AR Path="/5BD2050C" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2050C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 5150 50  0001 C CNN
+F 1 "GND" H 4955 5227 50  0000 C CNN
+F 2 "" H 4950 5400 50  0001 C CNN
+F 3 "" H 4950 5400 50  0001 C CNN
+	1    4950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5050 5400 5050
+Wire Wire Line
+	5400 5050 5400 5100
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 5BD20514
+P 8900 4850
+AR Path="/5BD20514" Ref="U?"  Part="1" 
+AR Path="/5BD0E604/5BD20514" Ref="U?"  Part="1" 
+F 0 "U?" H 8900 5092 50  0000 C CNN
+F 1 "L7805" H 8900 5001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 8925 4700 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 8900 4800 50  0001 C CNN
+	1    8900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5BD2051B
+P 5400 4700
+AR Path="/5BD2051B" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2051B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 4550 50  0001 C CNN
+F 1 "+15V" H 5415 4873 50  0000 C CNN
+F 2 "" H 5400 4700 50  0001 C CNN
+F 3 "" H 5400 4700 50  0001 C CNN
+	1    5400 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 5050
+$Comp
+L power:+15V #PWR?
+U 1 1 5BD20522
+P 8500 4750
+AR Path="/5BD20522" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20522" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 4600 50  0001 C CNN
+F 1 "+15V" H 8515 4923 50  0000 C CNN
+F 2 "" H 8500 4750 50  0001 C CNN
+F 3 "" H 8500 4750 50  0001 C CNN
+	1    8500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD20528
+P 8900 5250
+AR Path="/5BD20528" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20528" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8900 5000 50  0001 C CNN
+F 1 "GND" H 8905 5077 50  0000 C CNN
+F 2 "" H 8900 5250 50  0001 C CNN
+F 3 "" H 8900 5250 50  0001 C CNN
+	1    8900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4750 8500 4850
+Wire Wire Line
+	8500 4850 8600 4850
+Wire Wire Line
+	8900 5150 8900 5250
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD20531
+P 9300 4750
+AR Path="/5BD20531" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20531" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9300 4600 50  0001 C CNN
+F 1 "+5V" H 9315 4923 50  0000 C CNN
+F 2 "" H 9300 4750 50  0001 C CNN
+F 3 "" H 9300 4750 50  0001 C CNN
+	1    9300 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4750 9300 4850
+Wire Wire Line
+	9300 4850 9200 4850
+$Comp
+L Device:CP C?
+U 1 1 5BD20539
+P 8500 5100
+AR Path="/5BD20539" Ref="C?"  Part="1" 
+AR Path="/5BD0E604/5BD20539" Ref="C?"  Part="1" 
+F 0 "C?" H 8350 5200 50  0000 L CNN
+F 1 "CP" H 8550 5000 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 8538 4950 50  0001 C CNN
+F 3 "~" H 8500 5100 50  0001 C CNN
+	1    8500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4950 8500 4850
+Connection ~ 8500 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5BD20542
+P 8500 5250
+AR Path="/5BD20542" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20542" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 5000 50  0001 C CNN
+F 1 "GND" H 8505 5077 50  0000 C CNN
+F 2 "" H 8500 5250 50  0001 C CNN
+F 3 "" H 8500 5250 50  0001 C CNN
+	1    8500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5BD20548
+P 9300 5100
+AR Path="/5BD20548" Ref="C?"  Part="1" 
+AR Path="/5BD0E604/5BD20548" Ref="C?"  Part="1" 
+F 0 "C?" H 9150 5200 50  0000 L CNN
+F 1 "CP" H 9100 5100 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 9338 4950 50  0001 C CNN
+F 3 "~" H 9300 5100 50  0001 C CNN
+	1    9300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD2054F
+P 9300 5250
+AR Path="/5BD2054F" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2054F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9300 5000 50  0001 C CNN
+F 1 "GND" H 9305 5077 50  0000 C CNN
+F 2 "" H 9300 5250 50  0001 C CNN
+F 3 "" H 9300 5250 50  0001 C CNN
+	1    9300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4950 9300 4850
+Connection ~ 9300 4850
+$Comp
+L Device:C C?
+U 1 1 5BD20557
+P 9550 5100
+AR Path="/5BD20557" Ref="C?"  Part="1" 
+AR Path="/5BD0E604/5BD20557" Ref="C?"  Part="1" 
+F 0 "C?" H 9665 5146 50  0000 L CNN
+F 1 "C" H 9665 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9588 4950 50  0001 C CNN
+F 3 "~" H 9550 5100 50  0001 C CNN
+	1    9550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD2055E
+P 9550 5250
+AR Path="/5BD2055E" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2055E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9550 5000 50  0001 C CNN
+F 1 "GND" H 9555 5077 50  0000 C CNN
+F 2 "" H 9550 5250 50  0001 C CNN
+F 3 "" H 9550 5250 50  0001 C CNN
+	1    9550 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4850 9550 4850
+Wire Wire Line
+	9550 4850 9550 4950
+$Comp
+L Device:R R?
+U 1 1 5BD20566
+P 5150 4850
+AR Path="/5BD20566" Ref="R?"  Part="1" 
+AR Path="/5BD0E604/5BD20566" Ref="R?"  Part="1" 
+F 0 "R?" V 5250 4750 50  0000 C CNN
+F 1 "240" V 5250 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5080 4850 50  0001 C CNN
+F 3 "~" H 5150 4850 50  0001 C CNN
+	1    5150 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 4850 4950 4850
+Wire Wire Line
+	5400 4700 5400 4850
+Wire Wire Line
+	5400 4850 5300 4850
+Connection ~ 5400 4850
+Wire Wire Line
+	5400 4850 5400 5050
+$Comp
+L Device:R R?
+U 1 1 5BD20572
+P 5650 5050
+AR Path="/5BD20572" Ref="R?"  Part="1" 
+AR Path="/5BD0E604/5BD20572" Ref="R?"  Part="1" 
+F 0 "R?" H 5750 4950 50  0000 C CNN
+F 1 "2k7" H 5750 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 5050 50  0001 C CNN
+F 3 "~" H 5650 5050 50  0001 C CNN
+	1    5650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD20579
+P 5650 5400
+AR Path="/5BD20579" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20579" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 5150 50  0001 C CNN
+F 1 "GND" H 5655 5227 50  0000 C CNN
+F 2 "" H 5650 5400 50  0001 C CNN
+F 3 "" H 5650 5400 50  0001 C CNN
+	1    5650 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5400 5650 5200
+Wire Wire Line
+	5650 4900 5650 4450
+Wire Wire Line
+	5650 4450 4950 4450
+Wire Wire Line
+	4950 4450 4950 4850
+Connection ~ 4950 4850
+Wire Wire Line
+	4950 4850 4900 4850
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 5BD20585
+P 1900 3500
+AR Path="/5BD20585" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD20585" Ref="J?"  Part="1" 
+F 0 "J?" H 2000 4050 50  0000 R CNN
+F 1 "AVR-ISP-6" H 2350 3950 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" V 1650 3550 50  0001 C CNN
+F 3 " ~" H 625 2950 50  0001 C CNN
+	1    1900 3500
+	1    0    0    -1  
+$EndComp
+Text Label 2400 3400 0    50   ~ 0
+MOSI
+Text Label 2400 3300 0    50   ~ 0
+MISO
+Text Label 2400 3500 0    50   ~ 0
+SCK
+Wire Wire Line
+	2400 3500 2300 3500
+Wire Wire Line
+	2400 3400 2300 3400
+Wire Wire Line
+	2400 3300 2300 3300
+Text Label 2400 3600 0    50   ~ 0
+RST
+Wire Wire Line
+	2400 3600 2300 3600
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD20594
+P 1800 3000
+AR Path="/5BD20594" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20594" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1800 2850 50  0001 C CNN
+F 1 "+5V" H 1815 3173 50  0000 C CNN
+F 2 "" H 1800 3000 50  0001 C CNN
+F 3 "" H 1800 3000 50  0001 C CNN
+	1    1800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD2059A
+P 1800 3900
+AR Path="/5BD2059A" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2059A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1800 3650 50  0001 C CNN
+F 1 "GND" H 1805 3727 50  0000 C CNN
+F 2 "" H 1800 3900 50  0001 C CNN
+F 3 "" H 1800 3900 50  0001 C CNN
+	1    1800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5BD205A0
+P 5100 1950
+AR Path="/5BD205A0" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD205A0" Ref="J?"  Part="1" 
+F 0 "J?" H 5450 1450 50  0000 R CNN
+F 1 "UART HDR" H 5450 1500 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5100 1950 50  0001 C CNN
+F 3 "~" H 5100 1950 50  0001 C CNN
+	1    5100 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD205A7
+P 4900 1750
+AR Path="/5BD205A7" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD205A7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 1600 50  0001 C CNN
+F 1 "+5V" H 4915 1923 50  0000 C CNN
+F 2 "" H 4900 1750 50  0001 C CNN
+F 3 "" H 4900 1750 50  0001 C CNN
+	1    4900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD205AD
+P 4900 2050
+AR Path="/5BD205AD" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD205AD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 1800 50  0001 C CNN
+F 1 "GND" H 4905 1877 50  0000 C CNN
+F 2 "" H 4900 2050 50  0001 C CNN
+F 3 "" H 4900 2050 50  0001 C CNN
+	1    4900 2050
+	1    0    0    -1  
+$EndComp
+Text Label 4750 1850 0    50   ~ 0
+RX
+Text Label 4750 1950 0    50   ~ 0
+TX
+Wire Wire Line
+	4750 1850 4900 1850
+Wire Wire Line
+	4900 1950 4750 1950
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5BD205B7
+P 2850 2050
+AR Path="/5BD205B7" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD205B7" Ref="J?"  Part="1" 
+F 0 "J?" H 2822 1930 50  0000 R CNN
+F 1 "I2C HDR" H 3000 1750 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2850 2050 50  0001 C CNN
+F 3 "~" H 2850 2050 50  0001 C CNN
+	1    2850 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD205BE
+P 2650 1850
+AR Path="/5BD205BE" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD205BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2650 1700 50  0001 C CNN
+F 1 "+5V" H 2665 2023 50  0000 C CNN
+F 2 "" H 2650 1850 50  0001 C CNN
+F 3 "" H 2650 1850 50  0001 C CNN
+	1    2650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD205C4
+P 2650 2150
+AR Path="/5BD205C4" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD205C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2650 1900 50  0001 C CNN
+F 1 "GND" H 2655 1977 50  0000 C CNN
+F 2 "" H 2650 2150 50  0001 C CNN
+F 3 "" H 2650 2150 50  0001 C CNN
+	1    2650 2150
+	1    0    0    -1  
+$EndComp
+Text Label 2500 1950 0    50   ~ 0
+SDA
+Text Label 2500 2050 0    50   ~ 0
+SCL
+Wire Wire Line
+	2650 1950 2500 1950
+Wire Wire Line
+	2500 2050 2650 2050
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5BD205CE
+P 6100 1950
+AR Path="/5BD205CE" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD205CE" Ref="J?"  Part="1" 
+F 0 "J?" H 6450 1450 50  0000 R CNN
+F 1 "GND HDR" H 6450 1550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6100 1950 50  0001 C CNN
+F 3 "~" H 6100 1950 50  0001 C CNN
+	1    6100 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD205D5
+P 5800 2050
+AR Path="/5BD205D5" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD205D5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5800 1800 50  0001 C CNN
+F 1 "GND" H 5805 1877 50  0000 C CNN
+F 2 "" H 5800 2050 50  0001 C CNN
+F 3 "" H 5800 2050 50  0001 C CNN
+	1    5800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2050 5800 2050
+Wire Wire Line
+	5900 1750 5800 1750
+Wire Wire Line
+	5800 1750 5800 1850
+Connection ~ 5800 2050
+Wire Wire Line
+	5900 1850 5800 1850
+Connection ~ 5800 1850
+Wire Wire Line
+	5800 1850 5800 1950
+Wire Wire Line
+	5900 1950 5800 1950
+Connection ~ 5800 1950
+Wire Wire Line
+	5800 1950 5800 2050
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5BD205E5
+P 5600 2000
+AR Path="/5BD205E5" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD205E5" Ref="J?"  Part="1" 
+F 0 "J?" H 5900 1450 50  0000 R CNN
+F 1 "5V HDR" H 5900 1550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5600 2000 50  0001 C CNN
+F 3 "~" H 5600 2000 50  0001 C CNN
+	1    5600 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2100 5300 2100
+Wire Wire Line
+	5400 1800 5300 1800
+Wire Wire Line
+	5300 1800 5300 1900
+Wire Wire Line
+	5400 1900 5300 1900
+Connection ~ 5300 1900
+Wire Wire Line
+	5300 1900 5300 2000
+Wire Wire Line
+	5400 2000 5300 2000
+Connection ~ 5300 2000
+Wire Wire Line
+	5300 2000 5300 2100
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD205F5
+P 5300 1800
+AR Path="/5BD205F5" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD205F5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 1650 50  0001 C CNN
+F 1 "+5V" H 5315 1973 50  0000 C CNN
+F 2 "" H 5300 1800 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 1800
+$Comp
+L Device:LED D?
+U 1 1 5BD205FC
+P 9750 4850
+AR Path="/5BD205FC" Ref="D?"  Part="1" 
+AR Path="/5BD0E604/5BD205FC" Ref="D?"  Part="1" 
+F 0 "D?" V 9788 4732 50  0000 R CNN
+F 1 "POWER_LED" H 9750 4600 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 9750 4850 50  0001 C CNN
+F 3 "~" H 9750 4850 50  0001 C CNN
+	1    9750 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5BD20605
+P 9950 5050
+AR Path="/5BD20605" Ref="R?"  Part="1" 
+AR Path="/5BD0E604/5BD20605" Ref="R?"  Part="1" 
+F 0 "R?" H 9850 5050 50  0000 C CNN
+F 1 "540" H 9800 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9950 5050 50  0001 C CNN
+F 3 "~" H 9950 5050 50  0001 C CNN
+	1    9950 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD2060C
+P 9950 5250
+AR Path="/5BD2060C" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2060C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9950 5000 50  0001 C CNN
+F 1 "GND" H 9955 5077 50  0000 C CNN
+F 2 "" H 9950 5250 50  0001 C CNN
+F 3 "" H 9950 5250 50  0001 C CNN
+	1    9950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5BD20612
+P 1800 2050
+AR Path="/5BD20612" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD20612" Ref="J?"  Part="1" 
+F 0 "J?" H 1772 1930 50  0000 R CNN
+F 1 "I2C HDR" H 1950 1750 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1800 2050 50  0001 C CNN
+F 3 "~" H 1800 2050 50  0001 C CNN
+	1    1800 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD20619
+P 1600 1850
+AR Path="/5BD20619" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20619" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 1700 50  0001 C CNN
+F 1 "+5V" H 1615 2023 50  0000 C CNN
+F 2 "" H 1600 1850 50  0001 C CNN
+F 3 "" H 1600 1850 50  0001 C CNN
+	1    1600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD2061F
+P 1600 2150
+AR Path="/5BD2061F" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2061F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 1900 50  0001 C CNN
+F 1 "GND" H 1605 1977 50  0000 C CNN
+F 2 "" H 1600 2150 50  0001 C CNN
+F 3 "" H 1600 2150 50  0001 C CNN
+	1    1600 2150
+	1    0    0    -1  
+$EndComp
+Text Label 1450 1950 0    50   ~ 0
+SDA
+Text Label 1450 2050 0    50   ~ 0
+SCL
+Wire Wire Line
+	1600 1950 1450 1950
+Wire Wire Line
+	1450 2050 1600 2050
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5BD20629
+P 2350 2050
+AR Path="/5BD20629" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD20629" Ref="J?"  Part="1" 
+F 0 "J?" H 2322 1930 50  0000 R CNN
+F 1 "I2C HDR" H 2500 1750 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2350 2050 50  0001 C CNN
+F 3 "~" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD20630
+P 2150 1850
+AR Path="/5BD20630" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20630" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 1700 50  0001 C CNN
+F 1 "+5V" H 2165 2023 50  0000 C CNN
+F 2 "" H 2150 1850 50  0001 C CNN
+F 3 "" H 2150 1850 50  0001 C CNN
+	1    2150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD20636
+P 2150 2150
+AR Path="/5BD20636" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20636" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 1900 50  0001 C CNN
+F 1 "GND" H 2155 1977 50  0000 C CNN
+F 2 "" H 2150 2150 50  0001 C CNN
+F 3 "" H 2150 2150 50  0001 C CNN
+	1    2150 2150
+	1    0    0    -1  
+$EndComp
+Text Label 2000 1950 0    50   ~ 0
+SDA
+Text Label 2000 2050 0    50   ~ 0
+SCL
+Wire Wire Line
+	2150 1950 2000 1950
+Wire Wire Line
+	2000 2050 2150 2050
+Text Notes 3450 1250 0    59   Italic 12
+HEADERS
+Text Notes 8300 4450 0    59   Italic 12
+5V SUPPLY
+Text Notes 3700 4400 0    59   Italic 12
+IR2104 SUPPLY
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5BD2064F
+P 9350 3100
+AR Path="/5BD2064F" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD2064F" Ref="J?"  Part="1" 
+F 0 "J?" H 9322 2980 50  0000 R CNN
+F 1 "ENCODER HDR" H 9500 2800 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9350 3100 50  0001 C CNN
+F 3 "~" H 9350 3100 50  0001 C CNN
+	1    9350 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD20656
+P 9150 2900
+AR Path="/5BD20656" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20656" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 2750 50  0001 C CNN
+F 1 "+5V" H 9165 3073 50  0000 C CNN
+F 2 "" H 9150 2900 50  0001 C CNN
+F 3 "" H 9150 2900 50  0001 C CNN
+	1    9150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD2065C
+P 9150 3200
+AR Path="/5BD2065C" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2065C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 2950 50  0001 C CNN
+F 1 "GND" H 9155 3027 50  0000 C CNN
+F 2 "" H 9150 3200 50  0001 C CNN
+F 3 "" H 9150 3200 50  0001 C CNN
+	1    9150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3000 9000 3000
+Wire Wire Line
+	9000 3100 9150 3100
+Text Label 9000 3000 0    59   Italic 12
+A
+Text Label 9000 3100 0    59   Italic 12
+B
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5BD20666
+P 7700 2100
+AR Path="/5BD20666" Ref="J?"  Part="1" 
+AR Path="/5BD0E604/5BD20666" Ref="J?"  Part="1" 
+F 0 "J?" H 8050 1950 50  0000 R CNN
+F 1 "servo hdr" H 7750 1900 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 7700 2100 50  0001 C CNN
+F 3 "~" H 7700 2100 50  0001 C CNN
+	1    7700 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BD2066D
+P 7500 2000
+AR Path="/5BD2066D" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD2066D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7500 1850 50  0001 C CNN
+F 1 "+5V" H 7515 2173 50  0000 C CNN
+F 2 "" H 7500 2000 50  0001 C CNN
+F 3 "" H 7500 2000 50  0001 C CNN
+	1    7500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD20673
+P 7500 2200
+AR Path="/5BD20673" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD20673" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7500 1950 50  0001 C CNN
+F 1 "GND" H 7505 2027 50  0000 C CNN
+F 2 "" H 7500 2200 50  0001 C CNN
+F 3 "" H 7500 2200 50  0001 C CNN
+	1    7500 2200
+	1    0    0    -1  
+$EndComp
+Text Label 7400 2100 0    50   ~ 0
+svo
+Wire Wire Line
+	7400 2100 7500 2100
+$Comp
+L Device:CP C?
+U 1 1 5BD63928
+P 3000 5950
+AR Path="/5BD63928" Ref="C?"  Part="1" 
+AR Path="/5BD0E604/5BD63928" Ref="C?"  Part="1" 
+F 0 "C?" H 3118 5996 50  0000 L CNN
+F 1 "470" H 3118 5905 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x6.2" H 3038 5800 50  0001 C CNN
+F 3 "~" H 3000 5950 50  0001 C CNN
+	1    3000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5BD63978
+P 3300 5950
+AR Path="/5BD63978" Ref="C?"  Part="1" 
+AR Path="/5BD0E604/5BD63978" Ref="C?"  Part="1" 
+F 0 "C?" H 3418 5996 50  0000 L CNN
+F 1 "470" H 3418 5905 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x6.2" H 3338 5800 50  0001 C CNN
+F 3 "~" H 3300 5950 50  0001 C CNN
+	1    3300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5BD69B54
+P 3000 5800
+AR Path="/5BCF2976/5BD69B54" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD69B54" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 5650 50  0001 C CNN
+F 1 "VCC" H 3017 5973 50  0000 C CNN
+F 2 "" H 3000 5800 50  0001 C CNN
+F 3 "" H 3000 5800 50  0001 C CNN
+	1    3000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5BD69B8F
+P 3300 5800
+AR Path="/5BCF2976/5BD69B8F" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD69B8F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3300 5650 50  0001 C CNN
+F 1 "VCC" H 3317 5973 50  0000 C CNN
+F 2 "" H 3300 5800 50  0001 C CNN
+F 3 "" H 3300 5800 50  0001 C CNN
+	1    3300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD69BCA
+P 3000 6100
+AR Path="/5BCF2976/5BD69BCA" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD69BCA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 5850 50  0001 C CNN
+F 1 "GND" H 3005 5927 50  0000 C CNN
+F 2 "" H 3000 6100 50  0001 C CNN
+F 3 "" H 3000 6100 50  0001 C CNN
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD69C05
+P 3300 6100
+AR Path="/5BCF2976/5BD69C05" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD69C05" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3300 5850 50  0001 C CNN
+F 1 "GND" H 3305 5927 50  0000 C CNN
+F 2 "" H 3300 6100 50  0001 C CNN
+F 3 "" H 3300 6100 50  0001 C CNN
+	1    3300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5BD6AE14
+P 3600 4900
+AR Path="/5BD6AE14" Ref="C?"  Part="1" 
+AR Path="/5BD0E604/5BD6AE14" Ref="C?"  Part="1" 
+F 0 "C?" H 3718 4946 50  0000 L CNN
+F 1 "CP" H 3718 4855 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3638 4750 50  0001 C CNN
+F 3 "~" H 3600 4900 50  0001 C CNN
+	1    3600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5BD6AE66
+P 3600 4750
+AR Path="/5BD6AE66" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD6AE66" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3600 4600 50  0001 C CNN
+F 1 "VCC" H 3617 4923 50  0000 C CNN
+F 2 "" H 3600 4750 50  0001 C CNN
+F 3 "" H 3600 4750 50  0001 C CNN
+	1    3600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD6AEA3
+P 3600 5050
+AR Path="/5BD6AEA3" Ref="#PWR?"  Part="1" 
+AR Path="/5BD0E604/5BD6AEA3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3600 4800 50  0001 C CNN
+F 1 "GND" H 3605 4877 50  0000 C CNN
+F 2 "" H 3600 5050 50  0001 C CNN
+F 3 "" H 3600 5050 50  0001 C CNN
+	1    3600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4800 3850 4850
+Wire Wire Line
+	3850 4850 3900 4850
+Wire Wire Line
+	9600 4850 9550 4850
+Connection ~ 9550 4850
+Wire Wire Line
+	9950 5250 9950 5150
+Wire Wire Line
+	9950 4950 9950 4850
+Wire Wire Line
+	9950 4850 9900 4850
+$EndSCHEMATC
