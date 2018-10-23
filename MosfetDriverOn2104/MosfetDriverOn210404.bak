@@ -1186,19 +1186,6 @@ F 3 "" H 20050 200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5BD97570
-P 19400 150
-AR Path="/5BCF2976/5BD97570" Ref="#PWR?"  Part="1" 
-AR Path="/5BD97570" Ref="#PWR0147"  Part="1" 
-F 0 "#PWR0147" H 19400 0   50  0001 C CNN
-F 1 "+5V" H 19300 150 50  0000 C CNN
-F 2 "" H 19400 150 50  0001 C CNN
-F 3 "" H 19400 150 50  0001 C CNN
-	1    19400 150 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5BD97576
 P 19600 1800
@@ -1347,8 +1334,6 @@ Wire Wire Line
 NoConn ~ 18450 1450
 Wire Wire Line
 	18550 50   18450 50  
-Wire Wire Line
-	19400 150  19400 200 
 Text Label 19500 2300 2    50   ~ 0
 ~SD
 $Comp
@@ -2642,22 +2627,11 @@ Wire Wire Line
 	20550 1250 20550 1500
 Connection ~ 20300 1250
 Wire Wire Line
-	19350 200  19400 200 
-Wire Wire Line
-	19400 200  19400 300 
-Wire Wire Line
 	19400 500  19350 500 
-Connection ~ 19400 200 
 Wire Wire Line
 	19350 400  19400 400 
-Connection ~ 19400 400 
-Wire Wire Line
-	19400 400  19400 500 
 Wire Wire Line
 	19400 300  19350 300 
-Connection ~ 19400 300 
-Wire Wire Line
-	19400 300  19400 400 
 Wire Wire Line
 	18450 200  18750 200 
 Wire Wire Line
@@ -3006,4 +2980,28 @@ Wire Wire Line
 	-9450 -150 -9300 -150
 Wire Wire Line
 	-9500 -350 -9300 -350
+$Comp
+L power:GND #PWR?
+U 1 1 5BDA78C6
+P 19400 500
+AR Path="/5BCF2976/5BDA78C6" Ref="#PWR?"  Part="1" 
+AR Path="/5BDA78C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19400 250 50  0001 C CNN
+F 1 "GND" H 19405 327 50  0000 C CNN
+F 2 "" H 19400 500 50  0001 C CNN
+F 3 "" H 19400 500 50  0001 C CNN
+	1    19400 500 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19400 500  19400 400 
+Connection ~ 19400 500 
+Wire Wire Line
+	19400 300  19400 400 
+Connection ~ 19400 400 
+Wire Wire Line
+	19350 200  19400 200 
+Wire Wire Line
+	19400 200  19400 300 
+Connection ~ 19400 300 
 $EndSCHEMATC
