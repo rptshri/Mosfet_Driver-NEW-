@@ -2175,7 +2175,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_8x6.2 (layer F.Cu) (tedit 5A841F9D) (tstamp 5BCEF8EB)
-    (at 125.044564 94.432498 320)
+    (at 122.631564 93.289498 320)
     (descr "SMT capacitor, aluminium electrolytic, 8x6.2, Nichicon ")
     (tags "Capacitor Electrolytic")
     (path /5BD95CC1)
@@ -4164,7 +4164,7 @@
       (net 8 VCC))
     (pad 2 thru_hole circle (at -5.08 -6.35 235) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 8 VCC))
-    (pad 2 thru_hole circle (at 0 -6.35 235) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.349999 235) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 8 VCC))
   )
 
@@ -4201,7 +4201,7 @@
     (fp_line (start -5.334 -3.048) (end -5.334 2.032) (layer F.SilkS) (width 0.15))
     (fp_line (start 5.334 -3.048) (end -5.334 -3.048) (layer F.SilkS) (width 0.15))
     (fp_line (start 5.334 0) (end 5.334 -3.048) (layer F.SilkS) (width 0.15))
-    (pad 2 thru_hole circle (at 0 -6.35 235) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.349999 235) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 42 /M1))
     (pad 2 thru_hole circle (at -5.08 -6.35 235) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 42 /M1))
@@ -4258,7 +4258,7 @@
       (net 8 VCC))
     (pad 2 thru_hole circle (at -5.08 -6.35 35) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 8 VCC))
-    (pad 2 thru_hole circle (at 0 -6.35 35) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.349999 35) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 8 VCC))
   )
 
@@ -4295,7 +4295,7 @@
     (fp_line (start -5.334 -3.048) (end -5.334 2.032) (layer F.SilkS) (width 0.15))
     (fp_line (start 5.334 -3.048) (end -5.334 -3.048) (layer F.SilkS) (width 0.15))
     (fp_line (start 5.334 0) (end 5.334 -3.048) (layer F.SilkS) (width 0.15))
-    (pad 2 thru_hole circle (at 0 -6.35 35) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.349999 35) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 41 /M2))
     (pad 2 thru_hole circle (at -5.08 -6.35 35) (size 3.556 3.556) (drill 3.556) (layers *.Cu *.Mask)
       (net 41 /M2))
@@ -4310,7 +4310,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5BCF5EB7)
-    (at 169.074288 90.891129 220)
+    (at 192.342471 79.334084 220)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BD9CC21)
@@ -4346,7 +4346,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5BCF5EC7)
-    (at 170.393841 92.436481 220)
+    (at 198.944529 83.479916 220)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BD9CB95)
@@ -4382,7 +4382,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5BCF5ED7)
-    (at 167.667309 89.087565 220)
+    (at 194.755471 82.128084 220)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BD9CC28)
@@ -4418,7 +4418,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5BCF5EE7)
-    (at 164.726184 85.587138 220)
+    (at 186.754471 73.492084 220)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BD9CC2F)
@@ -4454,7 +4454,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5BCF5EF7)
-    (at 166.113966 87.241028 220)
+    (at 189.421471 76.540084 220)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BD9CC36)
