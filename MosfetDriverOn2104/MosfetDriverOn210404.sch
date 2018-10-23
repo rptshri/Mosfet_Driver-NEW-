@@ -490,84 +490,33 @@ $EndComp
 $Comp
 L power:+5V #PWR0118
 U 1 1 5BD95BFB
-P -5900 -550
+P -6100 -350
 AR Path="/5BD95BFB" Ref="#PWR0118"  Part="1" 
 AR Path="/5BD0E604/5BD95BFB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0118" H -5900 -700 50  0001 C CNN
-F 1 "+5V" H -5885 -377 50  0000 C CNN
-F 2 "" H -5900 -550 50  0001 C CNN
-F 3 "" H -5900 -550 50  0001 C CNN
-	1    -5900 -550
+F 0 "#PWR0118" H -6100 -500 50  0001 C CNN
+F 1 "+5V" H -6085 -177 50  0000 C CNN
+F 2 "" H -6100 -350 50  0001 C CNN
+F 3 "" H -6100 -350 50  0001 C CNN
+	1    -6100 -350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0119
 U 1 1 5BD95C01
-P -5900 -250
+P -6000 -250
 AR Path="/5BD95C01" Ref="#PWR0119"  Part="1" 
 AR Path="/5BD0E604/5BD95C01" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0119" H -5900 -500 50  0001 C CNN
-F 1 "GND" H -5895 -423 50  0000 C CNN
-F 2 "" H -5900 -250 50  0001 C CNN
-F 3 "" H -5900 -250 50  0001 C CNN
-	1    -5900 -250
+F 0 "#PWR0119" H -6000 -500 50  0001 C CNN
+F 1 "GND" H -5995 -423 50  0000 C CNN
+F 2 "" H -6000 -250 50  0001 C CNN
+F 3 "" H -6000 -250 50  0001 C CNN
+	1    -6000 -250
 	1    0    0    -1  
 $EndComp
-Text Label -6050 -450 0    50   ~ 0
+Text Label -6000 -550 0    50   ~ 0
 RX
-Text Label -6050 -350 0    50   ~ 0
+Text Label -6000 -450 0    50   ~ 0
 TX
-Wire Wire Line
-	-6050 -450 -5900 -450
-Wire Wire Line
-	-5900 -350 -6050 -350
-$Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 5BD95C0B
-P -7950 -250
-AR Path="/5BD95C0B" Ref="J5"  Part="1" 
-AR Path="/5BD0E604/5BD95C0B" Ref="J?"  Part="1" 
-F 0 "J5" H -7978 -370 50  0000 R CNN
-F 1 "I2C HDR" H -7800 -550 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H -7950 -250 50  0001 C CNN
-F 3 "~" H -7950 -250 50  0001 C CNN
-	1    -7950 -250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0120
-U 1 1 5BD95C12
-P -8150 -450
-AR Path="/5BD95C12" Ref="#PWR0120"  Part="1" 
-AR Path="/5BD0E604/5BD95C12" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0120" H -8150 -600 50  0001 C CNN
-F 1 "+5V" H -8135 -277 50  0000 C CNN
-F 2 "" H -8150 -450 50  0001 C CNN
-F 3 "" H -8150 -450 50  0001 C CNN
-	1    -8150 -450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0121
-U 1 1 5BD95C18
-P -8150 -150
-AR Path="/5BD95C18" Ref="#PWR0121"  Part="1" 
-AR Path="/5BD0E604/5BD95C18" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0121" H -8150 -400 50  0001 C CNN
-F 1 "GND" H -8145 -323 50  0000 C CNN
-F 2 "" H -8150 -150 50  0001 C CNN
-F 3 "" H -8150 -150 50  0001 C CNN
-	1    -8150 -150
-	1    0    0    -1  
-$EndComp
-Text Label -8300 -350 0    50   ~ 0
-SDA
-Text Label -8300 -250 0    50   ~ 0
-SCL
-Wire Wire Line
-	-8150 -350 -8300 -350
-Wire Wire Line
-	-8300 -250 -8150 -250
 $Comp
 L Connector:Conn_01x04_Male J8
 U 1 1 5BD95C22
@@ -694,53 +643,6 @@ F 3 "" H -850 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5BD95C64
-P -9000 -250
-AR Path="/5BD95C64" Ref="J1"  Part="1" 
-AR Path="/5BD0E604/5BD95C64" Ref="J?"  Part="1" 
-F 0 "J1" H -9028 -370 50  0000 R CNN
-F 1 "I2C HDR" H -8850 -550 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H -9000 -250 50  0001 C CNN
-F 3 "~" H -9000 -250 50  0001 C CNN
-	1    -9000 -250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0125
-U 1 1 5BD95C6B
-P -9200 -450
-AR Path="/5BD95C6B" Ref="#PWR0125"  Part="1" 
-AR Path="/5BD0E604/5BD95C6B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0125" H -9200 -600 50  0001 C CNN
-F 1 "+5V" H -9185 -277 50  0000 C CNN
-F 2 "" H -9200 -450 50  0001 C CNN
-F 3 "" H -9200 -450 50  0001 C CNN
-	1    -9200 -450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 5BD95C71
-P -9200 -150
-AR Path="/5BD95C71" Ref="#PWR0126"  Part="1" 
-AR Path="/5BD0E604/5BD95C71" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0126" H -9200 -400 50  0001 C CNN
-F 1 "GND" H -9195 -323 50  0000 C CNN
-F 2 "" H -9200 -150 50  0001 C CNN
-F 3 "" H -9200 -150 50  0001 C CNN
-	1    -9200 -150
-	1    0    0    -1  
-$EndComp
-Text Label -9350 -350 0    50   ~ 0
-SDA
-Text Label -9350 -250 0    50   ~ 0
-SCL
-Wire Wire Line
-	-9200 -350 -9350 -350
-Wire Wire Line
-	-9350 -250 -9200 -250
-$Comp
 L Connector:Conn_01x04_Male J3
 U 1 1 5BD95C7B
 P -8450 -250
@@ -769,22 +671,20 @@ $EndComp
 $Comp
 L power:GND #PWR0128
 U 1 1 5BD95C88
-P -8650 -150
+P -8850 -350
 AR Path="/5BD95C88" Ref="#PWR0128"  Part="1" 
 AR Path="/5BD0E604/5BD95C88" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0128" H -8650 -400 50  0001 C CNN
-F 1 "GND" H -8645 -323 50  0000 C CNN
-F 2 "" H -8650 -150 50  0001 C CNN
-F 3 "" H -8650 -150 50  0001 C CNN
-	1    -8650 -150
+F 0 "#PWR0128" H -8850 -600 50  0001 C CNN
+F 1 "GND" H -8845 -523 50  0000 C CNN
+F 2 "" H -8850 -350 50  0001 C CNN
+F 3 "" H -8850 -350 50  0001 C CNN
+	1    -8850 -350
 	1    0    0    -1  
 $EndComp
-Text Label -8800 -350 0    50   ~ 0
-SDA
 Text Label -8800 -250 0    50   ~ 0
+SDA
+Text Label -8800 -150 0    50   ~ 0
 SCL
-Wire Wire Line
-	-8650 -350 -8800 -350
 Wire Wire Line
 	-8800 -250 -8650 -250
 Text Notes -7350 -1050 0    59   Italic 12
@@ -809,36 +709,34 @@ $EndComp
 $Comp
 L power:+5V #PWR0129
 U 1 1 5BD95C9C
-P -1650 600
+P -1800 800
 AR Path="/5BD95C9C" Ref="#PWR0129"  Part="1" 
 AR Path="/5BD0E604/5BD95C9C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0129" H -1650 450 50  0001 C CNN
-F 1 "+5V" H -1635 773 50  0000 C CNN
-F 2 "" H -1650 600 50  0001 C CNN
-F 3 "" H -1650 600 50  0001 C CNN
-	1    -1650 600 
+F 0 "#PWR0129" H -1800 650 50  0001 C CNN
+F 1 "+5V" H -1785 973 50  0000 C CNN
+F 2 "" H -1800 800 50  0001 C CNN
+F 3 "" H -1800 800 50  0001 C CNN
+	1    -1800 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0130
 U 1 1 5BD95CA2
-P -1650 900
+P -1700 900
 AR Path="/5BD95CA2" Ref="#PWR0130"  Part="1" 
 AR Path="/5BD0E604/5BD95CA2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0130" H -1650 650 50  0001 C CNN
-F 1 "GND" H -1645 727 50  0000 C CNN
-F 2 "" H -1650 900 50  0001 C CNN
-F 3 "" H -1650 900 50  0001 C CNN
-	1    -1650 900 
+F 0 "#PWR0130" H -1700 650 50  0001 C CNN
+F 1 "GND" H -1695 727 50  0000 C CNN
+F 2 "" H -1700 900 50  0001 C CNN
+F 3 "" H -1700 900 50  0001 C CNN
+	1    -1700 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1650 700  -1800 700 
-Wire Wire Line
 	-1800 800  -1650 800 
-Text Label -1800 700  0    59   Italic 12
+Text Label -1750 600  0    59   Italic 12
 A
-Text Label -1800 800  0    59   Italic 12
+Text Label -1750 700  0    59   Italic 12
 B
 $Comp
 L Connector:Conn_01x03_Male J9
@@ -2996,4 +2894,116 @@ Wire Wire Line
 	16250 850  16450 850 
 Wire Wire Line
 	16250 1150 16450 1150
+Wire Wire Line
+	-6100 -350 -5900 -350
+Wire Wire Line
+	-5900 -250 -6000 -250
+Wire Wire Line
+	-1750 600  -1650 600 
+Wire Wire Line
+	-1750 700  -1650 700 
+Wire Wire Line
+	-1650 900  -1700 900 
+Wire Wire Line
+	-8800 -150 -8650 -150
+Wire Wire Line
+	-8850 -350 -8650 -350
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 5BFA199C
+P -7850 -250
+AR Path="/5BFA199C" Ref="J5"  Part="1" 
+AR Path="/5BD0E604/5BFA199C" Ref="J?"  Part="1" 
+F 0 "J5" H -7878 -370 50  0000 R CNN
+F 1 "I2C HDR" H -7700 -550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H -7850 -250 50  0001 C CNN
+F 3 "~" H -7850 -250 50  0001 C CNN
+	1    -7850 -250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0120
+U 1 1 5BFA19A3
+P -8050 -450
+AR Path="/5BFA19A3" Ref="#PWR0120"  Part="1" 
+AR Path="/5BD0E604/5BFA19A3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H -8050 -600 50  0001 C CNN
+F 1 "+5V" H -8035 -277 50  0000 C CNN
+F 2 "" H -8050 -450 50  0001 C CNN
+F 3 "" H -8050 -450 50  0001 C CNN
+	1    -8050 -450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5BFA19A9
+P -8250 -350
+AR Path="/5BFA19A9" Ref="#PWR0121"  Part="1" 
+AR Path="/5BD0E604/5BFA19A9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0121" H -8250 -600 50  0001 C CNN
+F 1 "GND" H -8245 -523 50  0000 C CNN
+F 2 "" H -8250 -350 50  0001 C CNN
+F 3 "" H -8250 -350 50  0001 C CNN
+	1    -8250 -350
+	1    0    0    -1  
+$EndComp
+Text Label -8200 -250 0    50   ~ 0
+SDA
+Text Label -8200 -150 0    50   ~ 0
+SCL
+Wire Wire Line
+	-8200 -250 -8050 -250
+Wire Wire Line
+	-8200 -150 -8050 -150
+Wire Wire Line
+	-8250 -350 -8050 -350
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5BFB80C0
+P -9100 -250
+AR Path="/5BFB80C0" Ref="J1"  Part="1" 
+AR Path="/5BD0E604/5BFB80C0" Ref="J?"  Part="1" 
+F 0 "J1" H -9128 -370 50  0000 R CNN
+F 1 "I2C HDR" H -8950 -550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H -9100 -250 50  0001 C CNN
+F 3 "~" H -9100 -250 50  0001 C CNN
+	1    -9100 -250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 5BFB80C7
+P -9300 -450
+AR Path="/5BFB80C7" Ref="#PWR0125"  Part="1" 
+AR Path="/5BD0E604/5BFB80C7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0125" H -9300 -600 50  0001 C CNN
+F 1 "+5V" H -9285 -277 50  0000 C CNN
+F 2 "" H -9300 -450 50  0001 C CNN
+F 3 "" H -9300 -450 50  0001 C CNN
+	1    -9300 -450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5BFB80CD
+P -9500 -350
+AR Path="/5BFB80CD" Ref="#PWR0126"  Part="1" 
+AR Path="/5BD0E604/5BFB80CD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0126" H -9500 -600 50  0001 C CNN
+F 1 "GND" H -9495 -523 50  0000 C CNN
+F 2 "" H -9500 -350 50  0001 C CNN
+F 3 "" H -9500 -350 50  0001 C CNN
+	1    -9500 -350
+	1    0    0    -1  
+$EndComp
+Text Label -9450 -250 0    50   ~ 0
+SDA
+Text Label -9450 -150 0    50   ~ 0
+SCL
+Wire Wire Line
+	-9450 -250 -9300 -250
+Wire Wire Line
+	-9450 -150 -9300 -150
+Wire Wire Line
+	-9500 -350 -9300 -350
 $EndSCHEMATC
