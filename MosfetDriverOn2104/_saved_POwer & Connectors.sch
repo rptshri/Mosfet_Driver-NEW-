@@ -426,7 +426,7 @@ AR Path="/5BD20585" Ref="J?"  Part="1"
 AR Path="/5BD0E604/5BD20585" Ref="J2"  Part="1" 
 F 0 "J2" H 2000 4050 50  0000 R CNN
 F 1 "AVR-ISP-6" H 2350 3950 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" V 1650 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 1650 3550 50  0001 C CNN
 F 3 " ~" H 625 2950 50  0001 C CNN
 	1    1900 3500
 	1    0    0    -1  

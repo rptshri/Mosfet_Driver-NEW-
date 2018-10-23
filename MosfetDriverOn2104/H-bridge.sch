@@ -240,19 +240,6 @@ Wire Wire Line
 	4050 3400 4000 3400
 Wire Wire Line
 	4000 3400 4000 3500
-$Comp
-L Device:R R?
-U 1 1 5BD21AFD
-P 6200 3850
-AR Path="/5BD21AFD" Ref="R?"  Part="1" 
-AR Path="/5BD21916/5BD21AFD" Ref="R16"  Part="1" 
-F 0 "R16" H 6270 3896 50  0000 L CNN
-F 1 "R" H 6270 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 6130 3850 50  0001 C CNN
-F 3 "~" H 6200 3850 50  0001 C CNN
-	1    6200 3850
-	1    0    0    -1  
-$EndComp
 Text Label 6050 4050 0    50   ~ 0
 IS-
 Text Label 5800 3600 0    50   ~ 0
@@ -582,25 +569,25 @@ U 1 1 5BD21BAD
 P 6000 3850
 AR Path="/5BD21BAD" Ref="R?"  Part="1" 
 AR Path="/5BD21916/5BD21BAD" Ref="R15"  Part="1" 
-F 0 "R15" H 6070 3896 50  0000 L CNN
-F 1 "R" H 6070 3805 50  0000 L CNN
+F 0 "R15" V 6000 3750 50  0000 L CNN
+F 1 "0E05" V 5700 3800 50  0001 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5930 3850 50  0001 C CNN
 F 3 "~" H 6000 3850 50  0001 C CNN
 	1    6000 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 3650 6000 3650
+	5800 3650 5900 3650
 Wire Wire Line
 	6000 3700 6000 3650
 Connection ~ 6000 3650
 Wire Wire Line
-	6000 3650 6200 3650
+	6000 3650 6100 3650
 Wire Wire Line
 	6200 3700 6200 3650
 Connection ~ 6200 3650
 Wire Wire Line
-	6200 3650 6400 3650
+	6200 3650 6300 3650
 Wire Wire Line
 	6000 4000 6000 4050
 Wire Wire Line
@@ -612,15 +599,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 4050 6200 4000
 Connection ~ 6100 4050
-Wire Notes Line
-	3500 2200 3500 4400
-Wire Notes Line
-	3500 4400 8800 4400
-Wire Notes Line
-	8800 4400 8800 2200
-Wire Notes Line
-	8800 2200 3500 2200
-Text Notes 3500 2200 0    59   Italic 12
+Text Notes 1900 1400 0    59   Italic 12
 IR2104 AND H BRIDGE
 Text Label 5900 3050 0    59   Italic 12
 M1
@@ -850,6 +829,155 @@ F 3 "~" H 7300 4100 50  0001 C CNN
 	1    7300 4100
 	-1   0    0    1   
 $EndComp
-Text Notes 6300 4100 0    50   ~ 0
-add 5 res's
+$Comp
+L Device:R R?
+U 1 1 5BD5C8F1
+P 5900 3850
+AR Path="/5BD5C8F1" Ref="R?"  Part="1" 
+AR Path="/5BD21916/5BD5C8F1" Ref="R21"  Part="1" 
+F 0 "R21" V 5900 3750 50  0000 L CNN
+F 1 "0E05" V 5800 3750 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5830 3850 50  0001 C CNN
+F 3 "~" H 5900 3850 50  0001 C CNN
+	1    5900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BD5C993
+P 6100 3850
+AR Path="/5BD5C993" Ref="R?"  Part="1" 
+AR Path="/5BD21916/5BD5C993" Ref="R22"  Part="1" 
+F 0 "R22" V 6100 3750 50  0000 L CNN
+F 1 "0E05" V 5800 3800 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6030 3850 50  0001 C CNN
+F 3 "~" H 6100 3850 50  0001 C CNN
+	1    6100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BD5C9F1
+P 6200 3850
+AR Path="/5BD5C9F1" Ref="R?"  Part="1" 
+AR Path="/5BD21916/5BD5C9F1" Ref="R24"  Part="1" 
+F 0 "R24" V 6200 3750 50  0000 L CNN
+F 1 "0E05" V 5900 3800 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6130 3850 50  0001 C CNN
+F 3 "~" H 6200 3850 50  0001 C CNN
+	1    6200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BD5CA43
+P 6300 3850
+AR Path="/5BD5CA43" Ref="R?"  Part="1" 
+AR Path="/5BD21916/5BD5CA43" Ref="R25"  Part="1" 
+F 0 "R25" V 6300 3750 50  0000 L CNN
+F 1 "0E05" V 6000 3800 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6230 3850 50  0001 C CNN
+F 3 "~" H 6300 3850 50  0001 C CNN
+	1    6300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3700 5900 3650
+Connection ~ 5900 3650
+Wire Wire Line
+	5900 3650 6000 3650
+Wire Wire Line
+	6100 3700 6100 3650
+Connection ~ 6100 3650
+Wire Wire Line
+	6100 3650 6200 3650
+Wire Wire Line
+	6300 3700 6300 3650
+Connection ~ 6300 3650
+Wire Wire Line
+	6300 3650 6400 3650
+Wire Wire Line
+	5900 4000 5900 4050
+Wire Wire Line
+	5900 4050 6000 4050
+Connection ~ 6000 4050
+Wire Wire Line
+	6200 4050 6300 4050
+Wire Wire Line
+	6300 4050 6300 4000
+Connection ~ 6200 4050
+$Comp
+L Amplifier_Operational:LM358 U6
+U 1 1 5BD6F8F1
+P 6550 5050
+F 0 "U6" H 6550 5417 50  0000 C CNN
+F 1 "LM358" H 6550 5326 50  0000 C CNN
+F 2 "" H 6550 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6550 5050 50  0001 C CNN
+	1    6550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BD6FCCF
+P 6500 5450
+AR Path="/5BD6FCCF" Ref="R?"  Part="1" 
+AR Path="/5BD21916/5BD6FCCF" Ref="R26"  Part="1" 
+F 0 "R26" V 6400 5500 50  0000 C CNN
+F 1 "10K" V 6400 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6430 5450 50  0001 C CNN
+F 3 "~" H 6500 5450 50  0001 C CNN
+	1    6500 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BD6FDBE
+P 6100 5650
+AR Path="/5BD6FDBE" Ref="R?"  Part="1" 
+AR Path="/5BD21916/5BD6FDBE" Ref="R23"  Part="1" 
+F 0 "R23" V 6000 5700 50  0000 C CNN
+F 1 "1K" V 6000 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 5650 50  0001 C CNN
+F 3 "~" H 6100 5650 50  0001 C CNN
+	1    6100 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5050 6900 5050
+Wire Wire Line
+	6900 5050 6900 5450
+Wire Wire Line
+	6900 5450 6650 5450
+Wire Wire Line
+	6100 5450 6100 5500
+Wire Wire Line
+	6100 5450 6350 5450
+Wire Wire Line
+	6100 5450 6100 5150
+Wire Wire Line
+	6100 5150 6250 5150
+Connection ~ 6100 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5BD7B67D
+P 6100 5800
+AR Path="/5BD7B67D" Ref="#PWR?"  Part="1" 
+AR Path="/5BD21916/5BD7B67D" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 6100 5550 50  0001 C CNN
+F 1 "GND" H 6105 5627 50  0000 C CNN
+F 2 "" H 6100 5800 50  0001 C CNN
+F 3 "" H 6100 5800 50  0001 C CNN
+	1    6100 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4950 6250 4950
+Text Label 6000 4950 0    50   ~ 0
+IS+
+Wire Wire Line
+	7050 5050 6900 5050
+Connection ~ 6900 5050
+Text Label 7050 5050 0    50   ~ 0
+Isense
 $EndSCHEMATC
