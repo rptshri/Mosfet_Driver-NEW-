@@ -2909,12 +2909,12 @@ Wire Wire Line
 Wire Wire Line
 	-8850 -350 -8650 -350
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J5
 U 1 1 5BFA199C
 P -7850 -250
-AR Path="/5BFA199C" Ref="J?"  Part="1" 
+AR Path="/5BFA199C" Ref="J5"  Part="1" 
 AR Path="/5BD0E604/5BFA199C" Ref="J?"  Part="1" 
-F 0 "J?" H -7878 -370 50  0000 R CNN
+F 0 "J5" H -7878 -370 50  0000 R CNN
 F 1 "I2C HDR" H -7700 -550 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H -7850 -250 50  0001 C CNN
 F 3 "~" H -7850 -250 50  0001 C CNN
@@ -2922,12 +2922,12 @@ F 3 "~" H -7850 -250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0120
 U 1 1 5BFA19A3
 P -8050 -450
-AR Path="/5BFA19A3" Ref="#PWR?"  Part="1" 
+AR Path="/5BFA19A3" Ref="#PWR0120"  Part="1" 
 AR Path="/5BD0E604/5BFA19A3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -8050 -600 50  0001 C CNN
+F 0 "#PWR0120" H -8050 -600 50  0001 C CNN
 F 1 "+5V" H -8035 -277 50  0000 C CNN
 F 2 "" H -8050 -450 50  0001 C CNN
 F 3 "" H -8050 -450 50  0001 C CNN
@@ -2935,12 +2935,12 @@ F 3 "" H -8050 -450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 5BFA19A9
 P -8250 -350
-AR Path="/5BFA19A9" Ref="#PWR?"  Part="1" 
+AR Path="/5BFA19A9" Ref="#PWR0121"  Part="1" 
 AR Path="/5BD0E604/5BFA19A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -8250 -600 50  0001 C CNN
+F 0 "#PWR0121" H -8250 -600 50  0001 C CNN
 F 1 "GND" H -8245 -523 50  0000 C CNN
 F 2 "" H -8250 -350 50  0001 C CNN
 F 3 "" H -8250 -350 50  0001 C CNN
@@ -2958,12 +2958,12 @@ Wire Wire Line
 Wire Wire Line
 	-8250 -350 -8050 -350
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J1
 U 1 1 5BFB80C0
 P -9100 -250
-AR Path="/5BFB80C0" Ref="J?"  Part="1" 
+AR Path="/5BFB80C0" Ref="J1"  Part="1" 
 AR Path="/5BD0E604/5BFB80C0" Ref="J?"  Part="1" 
-F 0 "J?" H -9128 -370 50  0000 R CNN
+F 0 "J1" H -9128 -370 50  0000 R CNN
 F 1 "I2C HDR" H -8950 -550 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H -9100 -250 50  0001 C CNN
 F 3 "~" H -9100 -250 50  0001 C CNN
@@ -2971,12 +2971,12 @@ F 3 "~" H -9100 -250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0125
 U 1 1 5BFB80C7
 P -9300 -450
-AR Path="/5BFB80C7" Ref="#PWR?"  Part="1" 
+AR Path="/5BFB80C7" Ref="#PWR0125"  Part="1" 
 AR Path="/5BD0E604/5BFB80C7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -9300 -600 50  0001 C CNN
+F 0 "#PWR0125" H -9300 -600 50  0001 C CNN
 F 1 "+5V" H -9285 -277 50  0000 C CNN
 F 2 "" H -9300 -450 50  0001 C CNN
 F 3 "" H -9300 -450 50  0001 C CNN
@@ -2984,12 +2984,12 @@ F 3 "" H -9300 -450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 5BFB80CD
 P -9500 -350
-AR Path="/5BFB80CD" Ref="#PWR?"  Part="1" 
+AR Path="/5BFB80CD" Ref="#PWR0126"  Part="1" 
 AR Path="/5BD0E604/5BFB80CD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -9500 -600 50  0001 C CNN
+F 0 "#PWR0126" H -9500 -600 50  0001 C CNN
 F 1 "GND" H -9495 -523 50  0000 C CNN
 F 2 "" H -9500 -350 50  0001 C CNN
 F 3 "" H -9500 -350 50  0001 C CNN
