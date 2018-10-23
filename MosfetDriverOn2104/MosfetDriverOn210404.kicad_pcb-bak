@@ -609,7 +609,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5BDD5EA9)
-    (at 154.176068 140.936095 45)
+    (at 166.241068 145.000095 45)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BD9CC53)
@@ -3364,7 +3364,7 @@
   )
 
   (module Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm (layer F.Cu) (tedit 5A4E1404) (tstamp 5BCF1346)
-    (at 149.987 145.796 90)
+    (at 144.78 148.59 90)
     (descr "4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)")
     (tags "DIP Switch SPST Slide 7.62mm 300mil")
     (path /5BD97588)
@@ -3785,7 +3785,7 @@
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5BDD627B)
-    (at 149.989644 139.375156 225)
+    (at 162.054644 143.439156 225)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BD9CC4C)
