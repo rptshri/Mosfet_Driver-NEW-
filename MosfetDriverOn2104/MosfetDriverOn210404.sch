@@ -275,63 +275,6 @@ Wire Wire Line
 	-1500 2450 -1500 2550
 Wire Wire Line
 	-1500 2550 -1600 2550
-$Comp
-L Device:CP C5
-U 1 1 5BD95B8D
-P -2300 2800
-AR Path="/5BD95B8D" Ref="C5"  Part="1" 
-AR Path="/5BD0E604/5BD95B8D" Ref="C?"  Part="1" 
-F 0 "C5" H -2450 2900 50  0000 L CNN
-F 1 "CP" H -2250 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.4" H -2262 2650 50  0001 C CNN
-F 3 "~" H -2300 2800 50  0001 C CNN
-	1    -2300 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-2300 2650 -2300 2550
-Connection ~ -2300 2550
-$Comp
-L power:GND #PWR0112
-U 1 1 5BD95B96
-P -2300 2950
-AR Path="/5BD95B96" Ref="#PWR0112"  Part="1" 
-AR Path="/5BD0E604/5BD95B96" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0112" H -2300 2700 50  0001 C CNN
-F 1 "GND" H -2295 2777 50  0000 C CNN
-F 2 "" H -2300 2950 50  0001 C CNN
-F 3 "" H -2300 2950 50  0001 C CNN
-	1    -2300 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C6
-U 1 1 5BD95B9C
-P -1500 2800
-AR Path="/5BD95B9C" Ref="C6"  Part="1" 
-AR Path="/5BD0E604/5BD95B9C" Ref="C?"  Part="1" 
-F 0 "C6" H -1650 2900 50  0000 L CNN
-F 1 "CP" H -1700 2800 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.4" H -1462 2650 50  0001 C CNN
-F 3 "~" H -1500 2800 50  0001 C CNN
-	1    -1500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5BD95BA3
-P -1500 2950
-AR Path="/5BD95BA3" Ref="#PWR0113"  Part="1" 
-AR Path="/5BD0E604/5BD95BA3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0113" H -1500 2700 50  0001 C CNN
-F 1 "GND" H -1495 2777 50  0000 C CNN
-F 2 "" H -1500 2950 50  0001 C CNN
-F 3 "" H -1500 2950 50  0001 C CNN
-	1    -1500 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1500 2650 -1500 2550
 Connection ~ -1500 2550
 $Comp
 L Device:C C7
@@ -1702,7 +1645,7 @@ AR Path="/5BD9CA92" Ref="Q1"  Part="1"
 AR Path="/5BD21916/5BD9CA92" Ref="Q?"  Part="1" 
 F 0 "Q1" H 6050 -3750 50  0000 L CNN
 F 1 "IRF540N" V 6350 -4050 50  0000 L CNN
-F 2 "Footprints:TO220_HS_SCREW" H 6350 -3975 50  0001 L CIN
+F 2 "TO220_HS_SCREW:TO220_HS_SCREW" H 6350 -3975 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6100 -3900 50  0001 L CNN
 	1    6100 -3900
 	1    0    0    -1  
@@ -1715,7 +1658,7 @@ AR Path="/5BD9CA99" Ref="Q2"  Part="1"
 AR Path="/5BD21916/5BD9CA99" Ref="Q?"  Part="1" 
 F 0 "Q2" H 6050 -3250 50  0000 L CNN
 F 1 "IRF540N" V 6350 -3550 50  0000 L CNN
-F 2 "Footprints:TO220_HS_SCREW" H 6350 -3475 50  0001 L CIN
+F 2 "TO220_HS_SCREW:TO220_HS_SCREW" H 6350 -3475 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6100 -3400 50  0001 L CNN
 	1    6100 -3400
 	1    0    0    -1  
@@ -1960,7 +1903,7 @@ AR Path="/5BD9CB24" Ref="Q3"  Part="1"
 AR Path="/5BD21916/5BD9CB24" Ref="Q?"  Part="1" 
 F 0 "Q3" H 6800 -3750 50  0000 L CNN
 F 1 "IRF540N" V 7150 -4000 50  0000 L CNN
-F 2 "Footprints:TO220_HS_SCREW" H 7150 -3975 50  0001 L CIN
+F 2 "TO220_HS_SCREW:TO220_HS_SCREW" H 7150 -3975 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6900 -3900 50  0001 L CNN
 	1    6900 -3900
 	-1   0    0    -1  
@@ -1973,7 +1916,7 @@ AR Path="/5BD9CB2B" Ref="Q4"  Part="1"
 AR Path="/5BD21916/5BD9CB2B" Ref="Q?"  Part="1" 
 F 0 "Q4" H 6800 -3250 50  0000 L CNN
 F 1 "IRF540N" V 7150 -3550 50  0000 L CNN
-F 2 "Footprints:TO220_HS_SCREW" H 7150 -3475 50  0001 L CIN
+F 2 "TO220_HS_SCREW:TO220_HS_SCREW" H 7150 -3475 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6900 -3400 50  0001 L CNN
 	1    6900 -3400
 	-1   0    0    -1  
@@ -2985,8 +2928,8 @@ L power:GND #PWR?
 U 1 1 5BDA78C6
 P 19400 500
 AR Path="/5BCF2976/5BDA78C6" Ref="#PWR?"  Part="1" 
-AR Path="/5BDA78C6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 19400 250 50  0001 C CNN
+AR Path="/5BDA78C6" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 19400 250 50  0001 C CNN
 F 1 "GND" H 19405 327 50  0000 C CNN
 F 2 "" H 19400 500 50  0001 C CNN
 F 3 "" H 19400 500 50  0001 C CNN
