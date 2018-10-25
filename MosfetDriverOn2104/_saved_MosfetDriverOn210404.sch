@@ -207,7 +207,7 @@ AR Path="/5BD95B68" Ref="U2"  Part="1"
 AR Path="/5BD0E604/5BD95B68" Ref="U?"  Part="1" 
 F 0 "U2" H -1900 2792 50  0000 C CNN
 F 1 "L7805" H -1900 2701 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H -1875 2400 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H -1875 2400 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H -1900 2500 50  0001 C CNN
 	1    -1900 2550
 	1    0    0    -1  
@@ -2926,23 +2926,23 @@ Wire Wire Line
 	20550 -550 20800 -550
 Connection ~ 20550 -550
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J13
 U 1 1 5BE050AC
 P -5150 850
-F 0 "J?" H -5123 826 50  0000 L CNN
+F 0 "J13" H -5123 826 50  0000 L CNN
 F 1 "Conn_01x02_Female" H -5123 735 50  0000 L CNN
-F 2 "" H -5150 850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H -5150 850 50  0001 C CNN
 F 3 "~" H -5150 850 50  0001 C CNN
 	1    -5150 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0112
 U 1 1 5BE4C230
 P -5450 800
-AR Path="/5BE4C230" Ref="#PWR?"  Part="1" 
+AR Path="/5BE4C230" Ref="#PWR0112"  Part="1" 
 AR Path="/5BD0E604/5BE4C230" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -5450 650 50  0001 C CNN
+F 0 "#PWR0112" H -5450 650 50  0001 C CNN
 F 1 "VCC" H -5433 973 50  0000 C CNN
 F 2 "" H -5450 800 50  0001 C CNN
 F 3 "" H -5450 800 50  0001 C CNN
@@ -2950,12 +2950,12 @@ F 3 "" H -5450 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR0113
 U 1 1 5BE4C2ED
 P -5650 800
-AR Path="/5BE4C2ED" Ref="#PWR?"  Part="1" 
+AR Path="/5BE4C2ED" Ref="#PWR0113"  Part="1" 
 AR Path="/5BD0E604/5BE4C2ED" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -5650 650 50  0001 C CNN
+F 0 "#PWR0113" H -5650 650 50  0001 C CNN
 F 1 "+15V" H -5635 973 50  0000 C CNN
 F 2 "" H -5650 800 50  0001 C CNN
 F 3 "" H -5650 800 50  0001 C CNN
