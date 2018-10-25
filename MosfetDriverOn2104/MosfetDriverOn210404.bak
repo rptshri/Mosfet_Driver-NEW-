@@ -2931,7 +2931,7 @@ U 1 1 5BE050AC
 P -5150 850
 F 0 "J?" H -5123 826 50  0000 L CNN
 F 1 "Conn_01x02_Female" H -5123 735 50  0000 L CNN
-F 2 "" H -5150 850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H -5150 850 50  0001 C CNN
 F 3 "~" H -5150 850 50  0001 C CNN
 	1    -5150 850 
 	1    0    0    -1  
