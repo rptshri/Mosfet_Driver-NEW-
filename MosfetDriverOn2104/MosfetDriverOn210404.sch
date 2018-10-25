@@ -2700,7 +2700,7 @@ AR Path="/5C0344EF" Ref="C16"  Part="1"
 AR Path="/5BD0E604/5C0344EF" Ref="C?"  Part="1" 
 F 0 "C16" H -5032 2996 50  0000 L CNN
 F 1 "470" H -5032 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x6.2" H -5112 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x7.9" H -5112 2800 50  0001 C CNN
 F 3 "~" H -5150 2950 50  0001 C CNN
 	1    -5150 2950
 	1    0    0    -1  
@@ -2947,4 +2947,8 @@ Wire Wire Line
 Wire Wire Line
 	19400 200  19400 300 
 Connection ~ 19400 300 
+Wire Wire Line
+	-5900 -550 -6000 -550
+Wire Wire Line
+	-6000 -450 -5900 -450
 $EndSCHEMATC
